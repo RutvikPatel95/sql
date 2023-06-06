@@ -169,3 +169,14 @@ select description from productMaster where QtyOnHand>ReorderLvl;
 --14
 select *, (SellPriec*15) as new_price from productMaster where SellPriec<=500;
 
+-----------------------function------------------------------------------------
+select abs(SellPriec) as total from productMaster;
+select lower(description) as total from productMaster;
+select upper(description) as total from productMaster;
+select concat(description,UnitMeasure) as total from productMaster;
+select substr(description,1,2) as total from productMaster;
+select cosh(SellPriec) as total from productMaster;
+select sum(QtyOnHand) as total from ProductMaster;
+select avg(QtyOnHand) as total from ProductMaster;
+select max(QtyOnHand) as total from ProductMaster;
+select min(QtyOnHand) as total from ProductMaster;
