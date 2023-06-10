@@ -180,3 +180,14 @@ select sum(QtyOnHand) as total from ProductMaster;
 select avg(QtyOnHand) as total from ProductMaster;
 select max(QtyOnHand) as total from ProductMaster;
 select min(QtyOnHand) as total from ProductMaster;
+
+---------------------------grop by------------------------------        
+select ProductNo,sum(productCreate )from Salesman_Order_Details Group by ProductNo order by ProductNo desc;
+select SalesmanNo,count(OrderNo) from sales_order Group by SalesmanNo order by SalesmanNo;
+
+----------------------------having cluses ---------------------------
+select ProductNo,count(OrderNo) from Salesman_Order_Details Group by ProductNo having count(OrderNo)<=2;
+
+---------------------------inner join----------------------------------
+select clientMaster.name, sales_order.order_No from sales_order 
+inner join clientMaster on sales_order.ClientNo=clientMaster.ClientNo;
