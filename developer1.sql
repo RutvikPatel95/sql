@@ -195,3 +195,5 @@ inner join clientMaster on sales_order.ClientNo=clientMaster.ClientNo;
 ---------------------------inner join----------------------------------
 select clientMaster.name, sales_order.order_No from sales_order 
 inner join clientMaster on sales_order.ClientNo=clientMaster.ClientNo;
+
+0
