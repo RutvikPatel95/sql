@@ -19,7 +19,7 @@ create table salesman_Master(
 );
 
 
-insert into Salesman_Master values('S00001','Aman','A/14','Worli','Mumbai',40002,'Maharashtra',3000,100,50,'Good');
+insesrt into Salesman_Master value('S00001','Aman','A/14','Worli','Mumbai',40002,'Maharashtra',3000,100,50,'Good');
 insert into Salesman_Master values('S00002','Omkar','65','Nariman','Mumbai',40001,'Maharashtra',3000,200,100,'Good');
 insert into Salesman_Master values('S00003','Raj','P-7','Bandra','Mumbai',40032,'Maharashtra',3000,200,100,'Good');
 insert into Salesman_Master values('S00004','Ashish','A/5','Juhu','Mumbai',40042,'Maharashtra',3500,200,150,'Good');
