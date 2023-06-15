@@ -52,18 +52,22 @@ insert into products values (52,"Shirt","Shirt",350,30,"Mans");
 insert into products values (53,"Jeanse","Jeanse",300,25,"Mans & Womens");
 insert into products values (54,"Lycra Tops","Lycra Tops",300,25,"Womens");
 
-
+3.
 insert into orders values (1010,001,25/3/2022,2000);
 insert into orders values (1020,002,3/4/2023,3050);
 insert into orders values (1030,003,20/7/2021,2020);
 insert into orders values (1040,004,5/10/2020,1150);
-
+4.
 insert into Order_items values(11,1010,50,51,50,300);
 insert into Order_items values(22,1020,10,52,10,350);
 insert into Order_items values(33,1030,13,53,35,200);
 insert into Order_items values(44,1040,42,54,20,100);
 
+5.
 select * from Customers;
+6.
 select * from products;
+7.
 select * from orders;
+8.
 select * from Order_items;

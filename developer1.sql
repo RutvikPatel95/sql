@@ -196,4 +196,3 @@ inner join clientMaster on sales_order.ClientNo=clientMaster.ClientNo;
 select clientMaster.name, sales_order.order_No from sales_order 
 inner join clientMaster on sales_order.ClientNo=clientMaster.ClientNo;
 
-0
