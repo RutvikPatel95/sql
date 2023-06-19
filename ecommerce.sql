@@ -48,7 +48,7 @@ insert into customers value(005,"vishal","patel","vishal@gmail.com","vishal1234"
 
 2.
 insert into products values (51,"T-Shirt","T-Shirt",300,25,"Mans");
-insert into products values (52,"Shirt","Shirt",350,30,"Mans");
+insert into products values (52,"Shirt","Shirt",350,30,"Womens");
 insert into products values (53,"Jeanse","Jeanse",300,25,"Mans & Womens");
 insert into products values (54,"Lycra Tops","Lycra Tops",300,25,"Womens");
 
